@@ -15,6 +15,7 @@ class CashRegister
       items << title
     end
     @last_total = total 
+    total += price * quantity
 
   def apply_discount()
     if @discount > 0
