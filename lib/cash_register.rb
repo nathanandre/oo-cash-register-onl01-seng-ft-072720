@@ -11,7 +11,7 @@ class CashRegister
 
 
   def add_item(title,price,quantity = 1)
-    
+    quantity.times do 
 
   def apply_discount()
     if @discount > 0
